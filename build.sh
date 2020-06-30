@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
+set -e
 
-THIS_DIR=$(readlink -f "$(dirname "${BASH_SOURCE[0]}")")
-docker build --network bridge --tag demo:latest --file "${THIS_DIR}/docker/Dockerfile" "${THIS_DIR}"
+docker build --no-cache --network bridge --tag demo:latest --file "docker/Dockerfile" "."
 
 

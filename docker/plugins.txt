@@ -1,8 +1,8 @@
 cloudbees-folder:6.12
-configuration-as-code:1.35
+configuration-as-code:1.36
 configuration-as-code-support:1.19
 credentials-binding:1.18
-credentials:2.3.0
+credentials:2.3.7
 git:4.2.2
 greenballs:1.15
 job-dsl:1.74
